@@ -1,0 +1,42 @@
+export const KEYS = [
+  {
+    id: "common-key",
+    name: "Common Key",
+    rarity: "Common",
+    price: "0.99",
+    tagline: "A quick spin with everyday loot.",
+    features: ["Survival crate", "Random loot drops", "Chance of bonus items"],
+  },
+  {
+    id: "rare-key",
+    name: "Rare Key",
+    rarity: "Rare",
+    price: "2.49",
+    tagline: "Better odds, better rewards.",
+    features: ["Rare cosmetics", "Enchanted gear", "Boosted drop rates"],
+  },
+  {
+    id: "epic-key",
+    name: "Epic Key",
+    rarity: "Epic",
+    price: "4.99",
+    tagline: "High-tier loot with real style.",
+    features: ["Epic cosmetics", "Rare materials", "Vote tokens"],
+  },
+  {
+    id: "legendary-key",
+    name: "Legendary Key",
+    rarity: "Legendary",
+    price: "9.99",
+    tagline: "The crate everyone talks about.",
+    features: ["Legendary item sets", "Exclusive pets", "Money rewards"],
+  },
+  {
+    id: "zaliorax-key",
+    name: "zaliorax Key",
+    rarity: "Mythic",
+    price: "14.99",
+    tagline: "The rarest key in the network.",
+    features: ["zaliorax-exclusive items", "Rare particle trails", "Chance of zaliorax+ perks"],
+  },
+]

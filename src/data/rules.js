@@ -1,0 +1,65 @@
+export const RULES = [
+  {
+    id: "general",
+    title: "General",
+    icon: "shield",
+    description: "The basics every player agrees to when joining zaliorax.",
+    rules: [
+      "Be respectful to all players and staff at all times.",
+      "Alt accounts are not allowed to bypass any punishment.",
+      "Keep your account safe — you are responsible for everything done on it.",
+      "Impersonating staff members is strictly forbidden.",
+      "Exploiting bugs without reporting them is a punishable offense.",
+    ],
+  },
+  {
+    id: "gameplay",
+    title: "Gameplay",
+    icon: "blocks",
+    description: "Rules that keep the world fair and enjoyable for everyone.",
+    rules: [
+      "Griefing or destroying another player's builds is not allowed.",
+      "Stealing from chests or bases without permission is not allowed.",
+      "Do not trap players or entities in ways that prevent gameplay.",
+      "Farms must not cause server lag or crash the world.",
+      "Respect claim borders and other players' territory.",
+    ],
+  },
+  {
+    id: "pvp",
+    title: "PvP",
+    icon: "swords",
+    description: "Combat rules — PvP is allowed, cheating is not.",
+    rules: [
+      "PvP is allowed in designated areas or with mutual consent.",
+      "Using hacked clients, x-ray, or any unfair advantage is bannable.",
+      "Combat logging to avoid death is not allowed.",
+      "Kill-farming friends to boost stats is not permitted.",
+    ],
+  },
+  {
+    id: "chat",
+    title: "Chat",
+    icon: "message",
+    description: "Keep chat friendly and welcoming for everyone.",
+    rules: [
+      "No harassment, hate speech, or discrimination of any kind.",
+      "Avoid spam, caps lock, and excessive advertising.",
+      "Do not leak personal information about yourself or others.",
+      "English is preferred in public chat — use other channels for other languages.",
+      "No advertising other servers in chat or DMs.",
+    ],
+  },
+  {
+    id: "punishments",
+    title: "Punishments",
+    icon: "gavel",
+    description: "What happens when the rules are broken.",
+    rules: [
+      "Punishments scale from warnings to permanent bans.",
+      "Staff decisions are final — appeals go through the Discord server.",
+      "Ban evasion or creating new accounts to return is treated as a permanent ban.",
+      "False reports may result in a warning for the reporter.",
+    ],
+  },
+]
