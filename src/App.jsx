@@ -15,7 +15,7 @@ export default function App() {
     <LanguageProvider>
       <ToastProvider>
         <UserProvider>
-          <div className="relative flex min-h-screen flex-col bg-ink-900">
+          <div className="relative flex min-h-screen flex-col bg-gradient-to-b from-ink-950 via-ink-900 to-ink-900">
             <Navbar />
             <main className="flex-1">
               <Routes>
